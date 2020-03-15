@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c4c0d099d824739e4bca4cfc16779243",
+    "revision": "c1f897dec4fb31f017cfdb7fabcebecd",
     "url": "/Add-Counters-CRA-REDUX/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Add-Counters-CRA-REDUX/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "66ef7cf03d418abdb83c",
-    "url": "/Add-Counters-CRA-REDUX/static/css/main.2aa86d63.chunk.css"
+    "revision": "e9a2d984cb16e56dbcef",
+    "url": "/Add-Counters-CRA-REDUX/static/css/main.b73d6f3b.chunk.css"
   },
   {
     "revision": "cd8d9425d7d68817560a",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Add-Counters-CRA-REDUX/static/js/2.e8bfee5c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "66ef7cf03d418abdb83c",
-    "url": "/Add-Counters-CRA-REDUX/static/js/main.3fa3000a.chunk.js"
+    "revision": "e9a2d984cb16e56dbcef",
+    "url": "/Add-Counters-CRA-REDUX/static/js/main.1a9f1be3.chunk.js"
   },
   {
     "revision": "d5fc99b9493bf645f94e",

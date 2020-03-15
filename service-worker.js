@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Add-Counters-CRA-REDUX/precache-manifest.c141a15f48bfeb5fc8e2decef694e8a3.js"
+  "/Add-Counters-CRA-REDUX/precache-manifest.a14b470ee0ab943758d437c9a8bbc37c.js"
 );
 
 self.addEventListener('message', (event) => {
