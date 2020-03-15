@@ -16,7 +16,7 @@ const AddCounter = (props) => {
   };
 
   return (
-    <div className='card mb-2 mainColor'>
+    <div className='card mainColor'>
       <div className='card-body'>
         <div className='row'>
           <div className="input-group ml-5 mr-5">

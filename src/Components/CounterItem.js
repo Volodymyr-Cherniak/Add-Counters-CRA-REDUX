@@ -24,7 +24,7 @@ function CounterItem(props) {
   };
 
   return (
-    <div className='card mb-2 mainColor'>
+    <div className='card mainColor'>
       <div className='card-body'>
         <div className='row'>
           <div className='col text-center'>

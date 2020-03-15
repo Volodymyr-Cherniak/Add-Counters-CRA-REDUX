@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="12fe3cd6-242f-43bd-85df-f310c1423faf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +43,18 @@
       <recent name="C:\Users\Professional\WebstormProjects\add-counters-cra-redux-fe1\src\Components" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -57,6 +67,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.deploy" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -80,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584269944924</updated>
-      <workItem from="1584269946575" duration="29118000" />
+      <workItem from="1584269946575" duration="29380000" />
     </task>
     <task id="LOCAL-00001" summary="create app">
       <created>1584307324869</created>
@@ -89,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584307324869</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="deploy in github">
+      <created>1584307699664</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584307699665</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,12 +119,33 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create app" />
-    <option name="LAST_COMMIT_MESSAGE" value="create app" />
+    <MESSAGE value="deploy in github" />
+    <option name="LAST_COMMIT_MESSAGE" value="deploy in github" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="274" y="0" key="CommitChangelistDialog2" timestamp="1584307321941">
+    <state x="274" y="0" key="CommitChangelistDialog2" timestamp="1584307698685">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="274" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1584307321941" />
+    <state x="274" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1584307698685" />
+    <state width="1345" height="182" key="GridCell.Tab.0.bottom" timestamp="1584307857195">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1345" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1584307857195" />
+    <state width="1345" height="182" key="GridCell.Tab.0.center" timestamp="1584307857195">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1345" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1584307857195" />
+    <state width="1345" height="182" key="GridCell.Tab.0.left" timestamp="1584307857195">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1345" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1584307857195" />
+    <state width="1345" height="182" key="GridCell.Tab.0.right" timestamp="1584307857195">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1345" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1584307857195" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1584307712511">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1584307712511" />
   </component>
 </project>

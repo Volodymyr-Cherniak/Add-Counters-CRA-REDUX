@@ -7,7 +7,7 @@ function TotalCounters(props) {
   const totalCountersValue = props.counters.reduce((acc, cur) => acc + cur.value, 0);
 
   return (
-    <div className='card mb-2 mainColor'>
+    <div className='card mainColor'>
       <div className="card-body">
         <div className="row">
           <div className="col text-center">
