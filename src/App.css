@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.mainColor {
+  background-color: #ededed;
+  box-shadow: 1px 0 4px 2px gray;
+
+}
