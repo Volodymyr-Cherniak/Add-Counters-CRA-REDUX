@@ -18,8 +18,8 @@ const AddCounter = (props) => {
   return (
     <div className='card mainColor'>
       <div className='card-body'>
-        <div className='row'>
-          <div className="input-group ml-5 mr-5">
+        <div className='row mr-auto ml-auto'>
+          <div className="input-group ml-auto mr-auto">
             <input type="text"
                    className="form-control"
                    placeholder='Add Name'
