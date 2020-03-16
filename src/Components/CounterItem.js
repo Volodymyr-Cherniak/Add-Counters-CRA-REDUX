@@ -42,23 +42,18 @@ function CounterItem(props) {
             <span className='m-3'>{value}</span>
             <button className='btn btn-outline-secondary' onClick={() => props.counterIncrementValue(id)}>+</button>
           </div>
-          <div className='col text-center'>
-            <button className='btn btn-outline-primary mr-2' onClick={() => props.counterResetValue(id)}>Reset</button>
-            {
-              editState && <button className='btn btn-outline-warning mr-2'
-                                   onClick={()=>setEditState(!editState)}
-              >Edit</button>
+          <div className='col center btn-group btn-group-toggle'>
+
+            <button className='btn btn-outline-primary' onClick={() => props.counterResetValue(id)}>Reset</button>
+
+            {editState &&
+            <button className='btn btn-outline-warning' onClick={() => setEditState(!editState)}>Edit</button>
             }
-            {
-              !editState && <button className='btn btn-outline-warning mr-2'
-                                   onClick={() => saveNewCounterName({id, newCounterName})}
-              >Save</button>
+            {!editState &&
+            <button className='btn btn-outline-warning' onClick={() => saveNewCounterName({id, newCounterName})}>Save</button>
             }
 
-            <button className='btn btn-outline-danger'
-                    onClick={() => props.counterDeleteConfirmation(id)}
-            >Delete
-            </button>
+            <button className='btn btn-outline-danger' onClick={() => props.counterDeleteConfirmation(id)}>Delete</button>
 
           </div>
         </div>

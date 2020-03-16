@@ -7,7 +7,6 @@ import AddCounter from "./AddCounter";
 import ConfirmDeleteCounter from "./ConfirmDeleteCounter";
 
 
-
 function MainCounters(props) {
   return (
     <div>

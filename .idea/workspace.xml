@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="12fe3cd6-242f-43bd-85df-f310c1423faf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/CounterItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/CounterItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/MainCounters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MainCounters.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584269944924</updated>
-      <workItem from="1584269946575" duration="29380000" />
+      <workItem from="1584269946575" duration="33355000" />
     </task>
     <task id="LOCAL-00001" summary="create app">
       <created>1584307324869</created>
@@ -111,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584307699665</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add some change">
+      <created>1584308086515</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584308086515</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,32 +128,37 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create app" />
     <MESSAGE value="deploy in github" />
-    <option name="LAST_COMMIT_MESSAGE" value="deploy in github" />
+    <MESSAGE value="add some change" />
+    <option name="LAST_COMMIT_MESSAGE" value="add some change" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="274" y="0" key="CommitChangelistDialog2" timestamp="1584307698685">
+    <state x="274" y="0" key="CommitChangelistDialog2" timestamp="1584384762797">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="274" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1584307698685" />
-    <state width="1345" height="182" key="GridCell.Tab.0.bottom" timestamp="1584307857195">
+    <state x="274" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1584384762797" />
+    <state width="1345" height="72" key="GridCell.Tab.0.bottom" timestamp="1584310814260">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1584307857195" />
-    <state width="1345" height="182" key="GridCell.Tab.0.center" timestamp="1584307857195">
+    <state width="1345" height="72" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1584310814260" />
+    <state width="1345" height="72" key="GridCell.Tab.0.center" timestamp="1584310814260">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1584307857195" />
-    <state width="1345" height="182" key="GridCell.Tab.0.left" timestamp="1584307857195">
+    <state width="1345" height="72" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1584310814260" />
+    <state width="1345" height="72" key="GridCell.Tab.0.left" timestamp="1584310814260">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1584307857195" />
-    <state width="1345" height="182" key="GridCell.Tab.0.right" timestamp="1584307857195">
+    <state width="1345" height="72" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1584310814260" />
+    <state width="1345" height="72" key="GridCell.Tab.0.right" timestamp="1584310814260">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1584307857195" />
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1584307712511">
+    <state width="1345" height="72" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1584310814260" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1584308103384">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1584307712511" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1584308103384" />
+    <state x="330" y="160" key="git4idea.merge.GitPullDialog" timestamp="1584384773644">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="330" y="160" key="git4idea.merge.GitPullDialog/0.0.1366.738@0.0.1366.738" timestamp="1584384773644" />
   </component>
 </project>
