@@ -43,7 +43,7 @@ function CounterItem(props) {
             <button className='btn btn-outline-secondary' onClick={() => props.counterIncrementValue(id)}>+</button>
           </div>
           <div className='col text-center'>
-            <button className='btn btn-outline-primary mr-2' onClick={() => props.counterResetValue(id)}>Reset</button>
+            {editState && <button className='btn btn-outline-primary mr-2' onClick={() => props.counterResetValue(id)}>Reset</button>}
             {
               editState && <button className='btn btn-outline-warning mr-2'
                                    onClick={()=>setEditState(!editState)}
@@ -55,10 +55,10 @@ function CounterItem(props) {
               >Save</button>
             }
 
-            <button className='btn btn-outline-danger'
+            {editState && <button className='btn btn-outline-danger'
                     onClick={() => props.counterDeleteConfirmation(id)}
             >Delete
-            </button>
+            </button>}
 
           </div>
         </div>
