@@ -53,7 +53,10 @@ function CounterItem(props) {
             <button className='btn btn-outline-warning' onClick={() => saveNewCounterName({id, newCounterName})}>Save</button>
             }
 
-            <button className='btn btn-outline-danger' onClick={() => props.counterDeleteConfirmation(id)}>Delete</button>
+            {editState && <button className='btn btn-outline-danger'
+                    onClick={() => props.counterDeleteConfirmation(id)}
+            >Delete
+            </button>}
 
           </div>
         </div>
