@@ -10,6 +10,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZA7FuFAVBkaNIL8MnlbeN6Qs8m" />
@@ -32,7 +37,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Professional\AppData\Roaming\npm\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -72,18 +77,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -96,6 +89,8 @@
       <updated>1584269944924</updated>
       <workItem from="1584269946575" duration="36702000" />
       <workItem from="1584730178422" duration="100000" />
+      <workItem from="1586278255227" duration="140000" />
+      <workItem from="1586281315460" duration="708000" />
     </task>
     <task id="LOCAL-00001" summary="create app">
       <created>1584307324869</created>
@@ -132,11 +127,18 @@
       <option name="project" value="LOCAL" />
       <updated>1584389014599</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="correcting styles">
+      <created>1586278343822</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586278343822</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create app" />
@@ -146,10 +148,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="correcting styles" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="274" y="0" key="CommitChangelistDialog2" timestamp="1584389013603">
+    <state x="274" y="0" key="CommitChangelistDialog2" timestamp="1586278342587">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="274" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1584389013603" />
+    <state x="274" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1586278342587" />
     <state width="1345" height="72" key="GridCell.Tab.0.bottom" timestamp="1584310814260">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -174,10 +176,14 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="395" y="84" key="MultipleFileMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1584384950467" />
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1584389024908">
+    <state x="184" y="14" key="SettingsEditor" timestamp="1586281384134">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1584389024908" />
+    <state x="184" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1586281384134" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1586278379191">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1586278379191" />
     <state x="330" y="160" key="git4idea.merge.GitPullDialog" timestamp="1584384797090">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
