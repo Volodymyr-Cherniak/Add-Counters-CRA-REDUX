@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="12fe3cd6-242f-43bd-85df-f310c1423faf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/AddCounter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AddCounter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/CounterItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/CounterItem.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +94,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584269944924</updated>
-      <workItem from="1584269946575" duration="35976000" />
+      <workItem from="1584269946575" duration="36702000" />
+      <workItem from="1584730178422" duration="100000" />
     </task>
     <task id="LOCAL-00001" summary="create app">
       <created>1584307324869</created>
@@ -126,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584384789739</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="correcting styles">
+      <created>1584389014599</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584389014599</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,13 +142,14 @@
     <MESSAGE value="create app" />
     <MESSAGE value="deploy in github" />
     <MESSAGE value="add some change" />
-    <option name="LAST_COMMIT_MESSAGE" value="add some change" />
+    <MESSAGE value="correcting styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="correcting styles" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="274" y="0" key="CommitChangelistDialog2" timestamp="1584384788760">
+    <state x="274" y="0" key="CommitChangelistDialog2" timestamp="1584389013603">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="274" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1584384788760" />
+    <state x="274" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1584389013603" />
     <state width="1345" height="72" key="GridCell.Tab.0.bottom" timestamp="1584310814260">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -167,10 +174,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="395" y="84" key="MultipleFileMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1584384950467" />
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1584308103384">
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1584389024908">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1584308103384" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1584389024908" />
     <state x="330" y="160" key="git4idea.merge.GitPullDialog" timestamp="1584384797090">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
