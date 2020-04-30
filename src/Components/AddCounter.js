@@ -12,6 +12,7 @@ const AddCounter = (props) => {
       props.addCounter(args);
       setValue('');
       setName('');
+      console.log('VALUE', args)
     }
   };
 

@@ -1,8 +1,8 @@
 const initialState = {
   counters: [
-    {id: 1, name: 'Counter1', value: 26},
-    {id: 2, name: 'Counter2', value: 18},
-    {id: 3, name: 'Counter3', value: 71}
+    {id: 1, name: 'Counter 1', value: 26},
+    {id: 2, name: 'Counter 2', value: 18},
+    {id: 3, name: 'Counter 3', value: 71}
   ],
   counterDeleteConfirmation: {}
 };
@@ -56,7 +56,7 @@ const counters = (state = initialState, action) => {
           {
             id: Math.random(),
             name: action.payload.name,
-            value: action.payload.value
+            value: Number(action.payload.value),
           }
         ]
       });

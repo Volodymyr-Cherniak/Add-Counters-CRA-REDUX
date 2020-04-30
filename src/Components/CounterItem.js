@@ -39,7 +39,7 @@ function CounterItem(props) {
           </div>
           <div className='col text-center d-inline-flex'>
             <button className='btn btn-outline-secondary ml-auto' onClick={() => props.counterDecrementValue(id)}>-</button>
-            <span className=' m-auto'><strong>{value}</strong></span>
+            <span className=' m-auto'><strong>{+value}</strong></span>
             <button className='btn btn-outline-secondary mr-auto' onClick={() => props.counterIncrementValue(id)}>+</button>
           </div>
           <div className='col center btn-group btn-group-toggle'>

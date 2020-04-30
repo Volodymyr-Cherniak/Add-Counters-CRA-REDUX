@@ -18,8 +18,6 @@ const ConfirmDeleteCounter = (props) => {
     props.resetCounterDeleteConfirmation();
   };
 
-
-
   return (
     <div>
       <Modal isOpen={!!counterName} toggle={toggle} className='className'>
@@ -41,8 +39,8 @@ const ConfirmDeleteCounter = (props) => {
         <ModalFooter>
           <Button outline color="danger"
                   onClick={counterDelete}
-                  disabled={name !== counterName}
-          >Delete</Button>{' '}
+                  disabled={name.trim().toLocaleLowerCase() !== counterName.toLocaleLowerCase()}
+          >Delete</Button>
           <Button outline color="secondary" onClick={toggle}>Cancel</Button>
         </ModalFooter>
       </Modal>
